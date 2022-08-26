@@ -1,0 +1,76 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 24px;
+    box-sizing: border-box;
+    color: #000;
+}
+body{
+    background-color: rgb(249,250,251);
+}
+p,span,li{
+    color: black;
+    font-size: 16px;
+}
+.details-page1 li{
+    list-style: none;
+}
+.details-page2 li{
+    list-style: none;
+}
+#Username{
+    text-align: center;
+    font-size: 48px;
+}
+a{
+    text-decoration: none;
+    color:#0da2b8;
+    font-weight: 500;
+
+}
+
+li{
+    line-height:1.9em ;
+}
+address{
+display: flex;
+}
+#socials--list {
+    display: flex;
+    justify-content: space-between ;
+    column-gap: 1em;
+    flex-wrap: wrap;
+}
+#socials--list  a {
+    font-weight: 300;
+    color: rgb(51,51,51);
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+#socials--list a:hover {
+    font-weight: 100;
+    color: #0da2b8;
+    font-size: 0.9em;
+}
+#Download-pdf a{
+    font-weight: 300;
+    color: rgb(51,51,51);
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+#Download-pdf a:hover{
+    font-weight: 100;
+    color: #0da2b8;
+    font-size: 0.9em;
+}
+#main-container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.page-section{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.line-break{
+    background-color: rgb(218,218,218);
+    height: 1px;
+}
